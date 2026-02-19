@@ -1,9 +1,6 @@
-# webhook-manager — My-Search
+# webhook-manager
 
 简洁的 Shell 脚本仓库，用于管理本地 `webhook`（ad-hoc HTTP webhook）配置、自动生成部署脚本并支持邮件通知（通过 `curl` 发 SMTP）。提供交互式安装/卸载/新建 Hook 功能，并自动注册为 systemd 服务运行。
-
-仓库地址：
-[https://github.com/My-Search/webhook-manager.git](https://github.com/My-Search/webhook-manager.git)
 
 ---
 
