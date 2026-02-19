@@ -1,5 +1,7 @@
 # webhook-manager
 
+**经典应用场景**：当github有新的commit后需要触发服务器的部署脚本，我们就可以使用这个脚本来方便创建与管理webhook接收github的请求，在创建一个webhook时需要输入如何运行部署脚本，当接收到请求时就会自动执行。
+
 简洁的 Shell 脚本仓库，用于管理本地 `webhook`（ad-hoc HTTP webhook）配置、自动生成部署脚本并支持邮件通知（通过 `curl` 发 SMTP）。提供交互式安装/卸载/新建 Hook 功能，并自动注册为 systemd 服务运行。
 
 ---
